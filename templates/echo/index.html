@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="container mx-auto w-[100%] bg-white relative rounded h-[500px]">
+  <textarea class=" w-[100%] rounded "  id="echo-log" cols="100" rows="20" ></textarea class="mx-auto"><br/>
+  <input class="bg-sky-800 border w-[100%] h-[100px] h-200 absolute bottom-10 pl-9 text-black  bg-green" id="text-input" type="text" placeholder="text to server ..."/> <br/>
+  <input class="button absolute bottom-10 w-[33%] h-[100px] right-0 bg-blue-200" id="text-submit" type="button" value="send"/>
+</div>
+
+{% endblock content %}
