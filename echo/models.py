@@ -8,6 +8,8 @@ os_choices=(
 
 class OsTyper (models.Model):
   name=models.CharField(choices=os_choices,max_length=50)
+  def __str__(self):
+    return self.name
 
 
 
