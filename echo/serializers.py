@@ -27,4 +27,4 @@ class MathCommandSerializer(serializers.ModelSerializer):
       fields='__all__'
 
 
-# serializer didnt transfer by internet conection 
+# serializer worked sucessfully 
