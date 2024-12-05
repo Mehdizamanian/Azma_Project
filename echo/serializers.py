@@ -25,3 +25,6 @@ class MathCommandSerializer(serializers.ModelSerializer):
   class Meta:
       model=MathCommand
       fields='__all__'
+
+
+# serializer didnt transfer by internet conection 
