@@ -2,5 +2,6 @@
 .env
 /env
 /venv
-__pycach__/
-db.sqlite3
+
+# __pycach__/
+# db.sqlite3
